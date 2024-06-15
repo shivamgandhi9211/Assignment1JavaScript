@@ -1,0 +1,77 @@
+
+/* navabar style */
+.navbar{
+    background-color: #6B8A7A;
+    color: white !important;
+    padding: 20px 30px;
+}
+.navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+
+}
+.navbar-nav li a:hover{
+  font-weight: 700;
+  border-bottom: 2px solid white;
+}
+.hero{
+  height: 80vh;
+  width: 100%;
+  background-color: #90bba5;
+}
+.hero img{
+  width: 100%;
+}
+
+@media (max-width:767px) {
+  .hero img{
+    visibility: hidden;
+  }
+}
+/* About section */
+#about img{
+  max-width:100%;
+  height: 350px;
+}
+#about h2{
+margin-top: 50px;
+color: #6B8A7A;
+}
+.portfolio img {
+  height: 200px;
+  width: 100%;
+  cursor: pointer;
+}
+.portfolio img:hover{
+ transform: scale(1.2);
+}
+.portfolio .pro{
+  width: 100%;
+}
+.portfolio h2{
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #6B8A7A;
+  }
+
+  .portfolio h5{
+    width: 100%;
+    margin-top: 20px;
+    color: #6B8A7A;
+    }
+  
+
+
+
+footer{
+  background-color: #6B8A7A;
+}
+.contact h2{
+  color: #5d9277;
+}
+#contact button{
+  background-color:#6B8A7A;
+  color: white;
+}

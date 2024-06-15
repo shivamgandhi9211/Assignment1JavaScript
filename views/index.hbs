@@ -1,0 +1,144 @@
+{{! Hero section }}
+<div class="hero">
+  <div class="container hero-container">
+    <div class="row">
+      <div class="col-md-6 p-5 mt-5">
+        <h1 class="mt-5">Hi There <br> Shivam Gandhi Here...</h1>
+        I am computer programming student who is currently in my final semester.
+      </div>
+      <div class="col-md-6">
+        <img src="./img/about.png" alt="" />
+      </div>
+    </div>
+  </div>
+</div>
+
+{{! About us Section }}
+<div class="about" id="about">
+  <div class="container">
+    <div class="row p-5">
+      <div class="col-md-6 p-5">
+        <img src="/img/profile-pic.png" alt="" />
+      </div>
+      <div class="col-md-6 mt-5">
+        <h2>About Me !!</h2>
+        <p>I am Shivam and I am a student of computer programming. I have completed multiple projects 
+           and I am a YouTuber who teaches young minds. Apart from Computers I am interested in hiking and sports.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{!-- Portfolio Section --}}
+<div class="portfolio" id="portfolio">
+  <div class="row pro">
+    <h2>My Portfolio</h2>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="./img/pro-1.png" alt="">
+        <hr>
+        <h5>Portfolio Website</h5>
+        <p>Using Html, Css and JavaScript</p>
+      </div>
+      <div class="col-md-4">
+        <img src="./img/pro-2.png" alt="">
+        <hr>
+        <h5>Simple Login Form</h5>
+        <p>Using Html, Css and JavaScript</p>
+      </div>
+      <div class="col-md-4">
+        <img src="./img/pro-4.png" alt="">
+        <hr>
+        <h5>Real Estate website</h5>
+        <p>Using Html, Css and JavaScript</p>
+      </div>
+    </div>
+  </div>
+</div>
+{{! Contact us Section }}
+<section class="bg-light py-3 py-md-5 contact" id="contact">
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+        <h2 class="mb-4 display-5 text-center">Contact</h2>
+        <p class="text-secondary mb-5 text-center">The best way to contact me is
+          to use the contact form below. Please fill out all of the required
+          fields and I will get back to you as soon as possible.</p>
+        <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle" />
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="contact">
+    <div class="row justify-content-lg-center">
+      <div class="col-12 col-lg-9">
+        <div class="bg-white border rounded shadow-sm overflow-hidden">
+
+          <form action="#!">
+            <div class="row gy-4 gy-xl-5 p-4 p-xl-5">
+              <div class="col-12">
+                <label for="fullname" class="form-label">Full Name
+                  <span class="text-danger">*</span></label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="fullname"
+                  name="fullname"
+                  value=""
+                  required
+                />
+              </div>
+              <div class="col-12 col-md-6">
+                <label for="email" class="form-label">Email
+                  <span class="text-danger">*</span></label>
+                <div class="input-group">
+    
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    value=""
+                    required
+                  />
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <label for="phone" class="form-label">Phone Number</label>
+                <div class="input-group">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="phone"
+                    name="phone"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div class="col-12">
+                <label for="message" class="form-label">Message
+                  <span class="text-danger">*</span></label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="3"
+                  required
+                ></textarea>
+              </div>
+              <div class="col-12 mt-5">
+                <div class="d-grid">
+                  <button class="btn btn-lg" type="submit">Submit</button>
+                </div>
+              </div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
